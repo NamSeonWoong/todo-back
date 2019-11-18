@@ -143,3 +143,5 @@ JWT_AUTH = {
     'JWT_REFRESH_EXPIRATION_DELTA': datetime.timedelta(days=7),
 }
 CORS_ORIGIN_ALLOW_ALL= True
+
+AUTH_USER_MODEL= "todos.User"
